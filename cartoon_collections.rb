@@ -29,7 +29,7 @@ def find_the_cheese(strings)
   i = 0 
   while i < cheese_types.length do
     if strings.include?(cheese_types[i])
-      return true 
+      return 
     else
       i += 1 
     end
