@@ -32,6 +32,7 @@ def find_the_cheese(strings)
       return true 
     else
       i += 1 
+    end
   end
   return nil
 end
