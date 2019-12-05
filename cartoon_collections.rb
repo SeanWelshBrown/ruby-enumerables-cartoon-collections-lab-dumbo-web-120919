@@ -14,8 +14,12 @@ end
 
 def long_planeteer_calls(calls)
   length_check = 4
-  calls.reduce do |index|
-    index.length
+  calls.map do |index|
+    index_length = index.length
+    if index_length > length_check
+      return true 
+    end
+  end
 end
 
 
