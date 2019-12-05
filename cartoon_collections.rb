@@ -29,7 +29,14 @@ def find_the_cheese(strings)
   strings.map do |index|
     inner_i = 0 
     while inner_i < strings.length do
-      strings[index].include?()
+      if strings[index].include?(cheese_types[inner_i])
+        return true
+      else
+        inner_i += 1 
+      end
+    end
+  end
+  return nil
 end
 
 
