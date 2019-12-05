@@ -20,6 +20,7 @@ def long_planeteer_calls(calls)
       return true 
     end
   end
+  return false
 end
 
 
