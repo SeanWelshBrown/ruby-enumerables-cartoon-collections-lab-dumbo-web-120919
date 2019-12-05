@@ -3,6 +3,7 @@ def roll_call_dwarves(dwarf_names)
     number = index += 1 
     dwarf = object
     puts index " " dwarf
+  end
 end
 
 
