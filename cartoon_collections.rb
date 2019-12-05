@@ -13,7 +13,9 @@ end
 
 
 def long_planeteer_calls(calls)
-  
+  length_check = 4
+  calls.reduce do |index|
+    index.length
 end
 
 
