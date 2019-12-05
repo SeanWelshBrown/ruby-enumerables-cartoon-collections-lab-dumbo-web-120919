@@ -2,7 +2,7 @@ def roll_call_dwarves(dwarf_names)
   dwarf_names.each_with_index do |object, index|
     number = index += 1 
     dwarf = object
-    puts index.str + " " + dwarf
+    puts index.to_s + " " + dwarf
   end
 end
 
